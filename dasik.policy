@@ -1,0 +1,19 @@
+grant codeBase "file:${{java.ext.dirs}}/*" {
+	permission java.security.AllPermission;
+};
+
+grant codeBase "file:d:/java/NetBeans/Dasik/build/classes/-" {
+	permission java.security.AllPermission;
+};
+
+grant codeBase "file:d:/java/NetBeans/Dasik/lib/-" {
+	permission java.security.AllPermission;
+};
+
+grant codeBase "file:/restrictedClient" {
+        permission groovy.security.GroovyCodeSourcePermission "/groovy/shell";
+};
+
+grant codeBase "file:/groovy/shell" {
+        permission java.lang.RuntimePermission "accessDeclaredMembers";
+};

@@ -1,0 +1,14 @@
+/.hg/*
+/build/classes/*
+/build.xml
+/build/built-jar.properties
+/channelinfo.xml
+/config.properties
+/dist/*
+/learn.bat
+/learndump.txt
+/logs/*
+/nbproject/*
+/userdump.txt
+/manifest.mf
+/weather_aliases.properties
